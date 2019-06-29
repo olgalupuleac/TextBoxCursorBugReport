@@ -1,6 +1,6 @@
 # Implementing a VS extension: text is sometimes typed in the code editor although my TextBox in WPF window has focus
 I'm developing a Visual Studio extension for VS 2017 and I've created a custom command which opens a WPF window with a TextBox. Sometimes, when I'm trying to edit a text in the textbox, the changes appear in the code editor although the cursor is placed in the text box.
-The bug cannot be reproduced deterministically, so the GIF with the bug is attached.
+The bug cannot be reproduced deterministically, so the GIF with the bug is attached. ![](text_box_bug.gif)
 
 To observe the bug with high probality:
 1. Clone this repo. 
@@ -30,4 +30,4 @@ private void Execute(object sender, EventArgs e)
 ```
 5. Repeat the steps 2-11 from the previous instruction. 
 
-![](text_box_bug.gif)
+
