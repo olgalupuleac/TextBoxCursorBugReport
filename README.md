@@ -29,3 +29,4 @@ private void Execute(object sender, EventArgs e)
 ```
 5. Repeat the steps 2-11 from the previous instruction. 
 
+![](text_box_bug.gif)
